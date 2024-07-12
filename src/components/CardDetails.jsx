@@ -52,7 +52,7 @@ const CardDetails = () => {
           {studentData.semester_results ? (
             studentData.semester_results.map((semester, index) => (
               <div key={index} className="mb-8">
-                <h3 className="text-xl font-semibold mb-2 text-center"># Sem {semester.semester_number}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-center"> Sem {semester.semester_number}</h3>
                 <p className="text-center mb-4">CGPI: {semester.cgpi}, SGPI: {semester.sgpi}</p>
                 <div className="overflow-x-auto">
                   <table className="min-w-full bg-gray-800">
