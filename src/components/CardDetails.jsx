@@ -81,7 +81,7 @@ const CardDetails = () => {
               </div>
             ))
           ) : (
-            <p className="text-center">No semester data available.</p>
+            <p className="text-center">Loading!!!!</p>
           )}
         </div>
       </div>
